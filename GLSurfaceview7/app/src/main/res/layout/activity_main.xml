@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#D7DA8D19"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/dr"
+        android:layout_width="54dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="4dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:text="DR"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/iz"
+        android:layout_width="54dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:text="IZ"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/dr" />
+
+    <Button
+        android:id="@+id/ar"
+        android:layout_width="54dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="5dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:text="AR"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/iz" />
+
+    <Button
+        android:id="@+id/ab"
+        android:layout_width="54dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="5dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:text="AB"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/ar" />
+
+    <Button
+        android:id="@+id/at"
+        android:layout_width="54dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="5dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:text="AT"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/ab" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="436dp"
+        android:gravity="center"
+        android:text="Movimiento de formas"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="GLSURFACEVIEW"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="344dp"
+        android:layout_height="281dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.253">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/de"
+        android:layout_width="54dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="5dp"
+        android:text="DE"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/at" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

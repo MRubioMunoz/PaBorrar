@@ -1,0 +1,19 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="200dp"
+    android:width="200dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100" >
+    <path
+        android:fillColor="#ffe600"
+        android:pathData="M 50,50 m -48,0 a 48,48 0 1,0 96,0 a 48,48 0 1,0 -96,0"/>
+
+   
+    <path
+        android:name="boca"
+        android:strokeColor="@android:color/black"
+        android:strokeWidth="4"
+        android:pathData="M 30,75 Q 50,55 70,75"/>
+</vector>
+
+

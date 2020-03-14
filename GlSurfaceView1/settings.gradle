@@ -1,0 +1,2 @@
+rootProject.name='GlSurfaceView1'
+include ':app'
